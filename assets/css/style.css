@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+:root {
+	--text-color: #F2F2F2;
+	--text-color2: #262626;
+	--background-color: #0D0D0D;
+	--hover-color: #F2F2F2;
+	--border-color: #ccc;
+	--submit-color: #262626;
+	--submit-color-hover: #404040;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/*ESTILOS DEL INDEX*/
+body {
+	background: var(--background-color);
+	overflow: hidden;
+}
+
+#nav-bar {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 200px;
+	width: 100vw;
+	height: 100vh;
+}
+
+#nav-bar ul {
+	list-style: none;
+}
+
+#nav-bar #title {
+	color: var(--text-color);
+}
+
+#nav-bar li a {
+	color: var(--text-color);
+	display: block;
+	text-decoration: none;
+	width: 100wh;
+	margin: 2px;
+}
+
+#nav-bar li a:hover {
+	color: var(--text-color2);
+	background: var(--hover-color);
+	font-size: 80px;
+	border-bottom: 3px solid red;
+}
+
+#nav-bar footer {
+	font-size: 30px;
+	color: var(--text-color);
+}
+
+/*-----------------------------------------------------------------*/
+
+
+
+
+
+/*ESTILOS DEL FORMULARIO*/
+
+/*MENÚ*/
+
+#nav-bar-menu {
+	background: var(--background-color);
+}
+
+#nav-bar-menu ul {
+	text-align: center;
+	list-style: none;
+}
+
+	
+#nav-bar-menu ul li {
+	display: inline-block;
+}
+
+#nav-bar-menu ul  li a {
+	font-family: monospace;
+	color: var(--text-color);
+	display: block;
+	margin: 0 20px 0 20px;
+	padding: 30px;
+	text-decoration: none;
+}
+
+
+#nav-bar-menu ul li a:hover {
+	color: var(--text-color2);
+	background: var(--hover-color);
+	border-bottom: 3px solid red;
+}
+
+#formContainer {
+	border: 1px solid var(--border-color);
+	border-raidus: 5px;
+	bakground-color: #F2F2F2;
+	padding: 20px;
+}
+
+#formContainer input[type="text"], input[type="email"] {
+	width: 100%;
+	padding: 12px 20px;
+	max-resolution: 8px 0;
+	display: inline-block;
+	border: 1px solid var(--border-color);
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+#formContainer input[type="submit"] {
+	width: 100%;
+	background:var(--submit-color);
+	color: var(--text-color);
+	padding: 14px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+#formContainer input[type="submit"]:hover {
+	background:var(--submit-color-hover);
+}
+
+#formContainer textarea {
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid var(--border-color);
+	border-radius: 4px;
+	font-size: 16px;
+	resize: none;
+}
+/*------------------------------------------------------------------*/
+
+
+/*ESTILOS DE LSITA*/
+
+ #ListaDesordenada, #ListaOrdenada {	
+ 	border: 1px solid var(--border-color);
+ 	font-family: monospace;
+}
+
+ #ListaDesordenada:hover, #ListaOrdenada:hover {
+ 	background: var(--background-color);
+ 	color:  var(--text-color);
+ }
+
+ /*------------------------------------------------------------------*/
+
+
+ /*ESTILOS DE TABLA*/
+
+#TitleList {
+	font: 33px monospace;
+	font-weight: 700;
+	text-align: center;
+	border-bottom: 1px solid var(--border-color);
+}
